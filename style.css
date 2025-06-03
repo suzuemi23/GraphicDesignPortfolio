@@ -1,7 +1,118 @@
 
-title{
+html{ 
+    background-image: url(background.png);
+    background-size: 100%; 
+    cursor:url(Screenshot_2025-06-03_at_9.54.47-removebg-preview.png),auto ;
+
+}
+#titlepage{
     background-color: #004aad; 
-    padding: 40px; 
+    color: white; 
+    font-size: 90px; 
+    font-family: Courier ; 
+    padding: 220px; 
     display: flex; 
+    justify-content: center;
+    align-content: flex-end;
+
+}
+
+#titles{
+    color: #253e8a; 
+    font-size: 80px;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.project-map{
+    font-family: 'Courier New', Courier, monospace;
+    color: #253e8a; 
+    font-size: 25px;
+    display: flex; 
+    justify-content: center;
     
+}
+
+.projects div {
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: #e0f0ff;
+    font-weight: bold;
+  }
+#TitlesProject{ 
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+#TitlesProject2{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex; 
+    justify-content: flex-end;
+}
+#TitlesProject3{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+#TitlesProject4{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex; 
+    justify-content: flex-end;
+}
+#TitlesProject5{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    
+}
+#TitlesProject6{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex; 
+    justify-content: flex-end;
+}
+#TitlesProject7{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+#TitlesProject8{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+#line{
+    color: #253e8a;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#name{
+    font-family: 'Courier New', Courier, monospace;
+    color: #253e8a;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#IMP{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
 }
