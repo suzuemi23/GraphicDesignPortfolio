@@ -1,8 +1,11 @@
+html, #titlepage a, #titlesofproject a { 
+    cursor: url("cursor.png"),auto 
 
+}
 html{ 
     background-image: url(background.png);
     background-size: 100%; 
-    cursor:url(Screenshot_2025-06-03_at_9.54.47-removebg-preview.png),auto ;
+    
 
 }
 #titlepage{
@@ -73,25 +76,6 @@ html{
     font-size: 60px;
     
 }
-#TitlesProject6{
-    color: #253e8a;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
-    display: flex; 
-    justify-content: flex-end;
-}
-#TitlesProject7{
-    color: #253e8a;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
-}
-#TitlesProject8{
-    color: #253e8a;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
-    display: flex; 
-    justify-content: flex-end;
-}
 
 #line{
     color: #253e8a;
@@ -115,4 +99,18 @@ html{
     color: #253e8a;
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: #253e8a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+
+}
+
+#paragraph2{
+    display: flex; 
+    justify-content: flex-end;
 }
