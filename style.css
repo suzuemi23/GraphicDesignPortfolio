@@ -52,6 +52,7 @@ html{
     font-size: 60px;
 }
 #TitlesProject2{
+    padding: 40px;
     color: #253e8a;
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
@@ -106,31 +107,88 @@ html{
 p{
     color: #253e8a;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
+    font-size: 50px;
 
 }
 
 #paragraph2{
+    
+    position: inherit;
     display: flex; 
-    justify-content: flex-end;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding: 50px;
 }
-@keyframes fade-in {
-    from {
-      opacity: 0;
-    } /* Starting state: invisible */
-    to {
-      opacity: 100;
-    } /* Ending state: fully visible */
-  }
-  
-  /* Style the element that should fade in */
-  .fading-element {
-    /* Set initial opacity to 0 (invisible) */
-    opacity: 0;
-    /* Apply the animation */
-    animation: fade-in linear forwards; 
-    animation-timeline: view(block); 
-    animation-range: entry; 
-    transition: opacity 3s ease-in-out;
-  }
-  
+
+#concertproject{
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-end;
+   padding: 50px;
+
+}
+
+#paragraph{
+    position: inherit;
+    display: flex; 
+    align-items: baseline;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+#mapproject{
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+   padding: 20px;
+
+}
+
+#Negativeproject{
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+   padding: 20px;
+
+}
+
+#humanproject{
+    float: right;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+   padding: 50px;
+
+}
+
+#logoproject{
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+   padding: 20px;
+
+}
+
+.Negative{
+    padding: 50px;
+}
+
+.map{
+    padding:50px;
+}
+
+#paragraphIMP{
+    float: center;
+    padding: 30px;
+    display: flex; 
+    justify-items: center;
+}
