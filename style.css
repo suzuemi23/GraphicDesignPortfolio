@@ -114,3 +114,23 @@ p{
     display: flex; 
     justify-content: flex-end;
 }
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    } /* Starting state: invisible */
+    to {
+      opacity: 100;
+    } /* Ending state: fully visible */
+  }
+  
+  /* Style the element that should fade in */
+  .fading-element {
+    /* Set initial opacity to 0 (invisible) */
+    opacity: 0;
+    /* Apply the animation */
+    animation: fade-in linear forwards; 
+    animation-timeline: view(block); 
+    animation-range: entry; 
+    transition: opacity 3s ease-in-out;
+  }
+  
